@@ -1,6 +1,7 @@
 # DialectSoftware.Encoding
 Generic implementation for arbitrary encoding schemes
 
+```C#
 var encoder = new DialectSoftware.Encoding.BaseNEncoder(26, "0123456789abcdefghijklmnop".ToArray());
 foreach (var e in encoder)
 {
